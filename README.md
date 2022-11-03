@@ -123,14 +123,18 @@ We want to get a list of just the items that have a review for you in the `PENDI
 
 First we need a tool to filter the json output from the command line and `jq` is a great tool for the job. 
 The following command will get us the anser that we are looking for and we will follow up with a breakdown of what it does.
-gh pr list -R nateprice7/toil_no_more --json=number,reviews | jq ".[]| select(.reviews[]|.author.login == \"<your username>\" and .state == \"PENDING\")|.number
+
+`gh pr list -R nateprice7/toil_no_more --json=number,reviews | jq ".[]| select(.reviews[]|.author.login == \"<your username>\" and .state == \"PENDING\")|.number`
 
 `.[]` selects the content inthe top level array
+
 `| select...` filters to items that have you as the author and are in the pending state
+
 `|.number` tells it to just return the number attribute(id of the PR) as the result
 
 Once that is done you can type the following to learn more about that PR.
-gh pr view -R nateprice7/toil_no_more <ID of PR>
+
+`gh pr view -R nateprice7/toil_no_more <ID of PR>`
 
 #### Exercise 2.2 Extending your knowledge
 

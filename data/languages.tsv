@@ -231,11 +231,11 @@
 787	Chinese (Switzerland)
 788	Engis
 789	cape
-790	Türk
+790	TÃ¼rk
 791	Bengali
 792	ie&ee
 793	Assamese
-795	türkç
+795	tÃ¼rkÃ§
 796	Avestan
 797	Irish
 798	Portuguese (Brazil)
@@ -254,7 +254,7 @@
 811	he}
 812	English (DV)
 814	net}
-816	ie£­e
+816	ieÂ£Â­e
 818	java
 819	x-ns1
 821	Uzbek
@@ -264,13 +264,13 @@
 825	Javanese
 827	Medhv
 828	Indon
-829	ie–ee
+829	ieâ€“ee
 830	Portuguese (Portugal)
 831	Malay (Ireland)
 832	*
 833	multi
 834	Quadr
-835	·±Ìå
+835	Â·Â±ÃŒÃ¥
 837	Interlingue (United Arab Emira
 839	Mingl
 840	...
@@ -301,9 +301,9 @@
 871	redne
 872	gb231
 873	pdf
-874	turký
+874	turkÃ½
 875	i-ee
-876	Türki
+876	TÃ¼rki
 878	Ahora
 879	For
 880	Chechen
@@ -334,7 +334,7 @@
 906	svens
 908	''ie-
 909	Gujarati
-910	Norwegian Bokmål
+910	Norwegian BokmÃ¥l
 911	disc
 912	espan
 914	Fucke
@@ -392,7 +392,7 @@
 972	type:
 974	B.
 975	Arabic
-976	Norwegian BokmÃ¥l (Norway)
+976	Norwegian BokmÃƒÂ¥l (Norway)
 977	Amharic
 978	French (Switzerland)
 979	<<ie-
@@ -434,7 +434,7 @@
 1023	azar
 1024	myanm
 1025	TCVN
-1026	créol
+1026	crÃ©ol
 1027	root
 1028	jutt
 1030	saura
@@ -452,7 +452,7 @@
 1043	Avestan (Ireland)
 1044	irans
 1045	Marti
-1046	fraça
+1046	fraÃ§a
 1047	Latin
 1048	Spanish (Estonia)
 1049	ir (Estonia)
@@ -523,3 +523,4 @@
 1119	Bosnian (Bosnia-Herzegovina)
 1120	Serbian (Serbia-Montenegro)
 1121	Croatian (Bosnia-Herzegovina)
+1122  Navi (Avatar)

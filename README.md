@@ -60,10 +60,15 @@ Once the authentication is complete run the following command to test it out by 
 Reviewing PRs can be an important part of ensuring code quality in a product. Sometimes you may start a review and leave some comments in a pending state and not have time to finsih the review. If the list of PRs adds up and a little time passes then it can at times be pretty tedious. We are going to build up a command that will quickly tell us which reviews need to be finished.
 
 As we tried in the step above we can get a list of the PRs with the following command.
-gh pr list -R nateprice7/toil_no_more
 
+`gh pr list -R nateprice7/toil_no_more`
+
+The above list of PRs is nice, but we are interested in the records that have pending reviews. The following command will return the results in a json format and will include the informations about reviews.
+
+`gh pr list -R nateprice7/toil_no_more --json=number,reviews`
 
 gh pr list -R nateprice7/toil_no_more --json=number,reviews | jq ".[]| select(.reviews[]|.author.login == \"$USER\" and .state == \"PENDING\")|.number
+
 
 #### Exercise 2.2 Extending your knowledge
 give a problem where they can apply their skills.

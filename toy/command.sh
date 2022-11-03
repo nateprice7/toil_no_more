@@ -19,5 +19,5 @@ join -t $'\t' \
       head -n1 |
       tr $'\t' $'\n' |
       cat -n |
-      sort) |
+      sort -k 1,1) |
   sort -n
